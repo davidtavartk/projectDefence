@@ -1,5 +1,5 @@
 import { ToastContainer } from 'react-toastify';
-import SignForm from '../Components/signForm';
+import SignForm from '../Components/SignForm';
 import { registerUser } from '../api';
 import { notify } from '../utilities/notify';
 import { useNavigate } from 'react-router-dom';
