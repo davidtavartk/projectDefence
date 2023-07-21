@@ -1,0 +1,10 @@
+const routePaths = {
+    Home: '/',
+    Login: '/login',
+    Registration: '/registration',
+    Collection: '/collection/:id',
+    Item: '/item/:id',
+    MyCollection: '/myCollection/:id'
+  };
+  
+  export default routePaths;
