@@ -8,7 +8,6 @@ import routePaths from '../routes/routePaths';
 
 
 
-
 function Login() {
 
   const navigate = useNavigate();
