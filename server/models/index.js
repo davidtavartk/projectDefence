@@ -26,6 +26,6 @@ Comment.belongsTo(Item, { foreignKey: { name: "item_id", allowNull: false } });
 
 User.hasMany(Comment, { foreignKey: { name: "user_id", allowNull: false }, as: "user_comments" });
 Comment.belongsTo(User, { foreignKey: { name: "user_id", allowNull: false }});
-sequelize.sync();
+// sequelize.sync();
 
 module.exports = {User, Collection, Item, Tag};

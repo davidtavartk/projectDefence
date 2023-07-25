@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 import { Navbar, Nav, Container, Button, Form, Dropdown } from 'react-bootstrap';
 import routePaths from '../routes/routePaths';
 import userIcon from '../images/userIcon.png';
@@ -48,8 +48,6 @@ const AppNavbar = () => {
 
                     <Nav className="m-auto ">
                         <Nav.Link href={routePaths.Home} className='nav-link rounded-5'>Home</Nav.Link>
-                        <Nav.Link href="#link" className='nav-link rounded-5 mx-3'>Link</Nav.Link>
-
                         <Form className="d-flex">
                             <Form.Control
                                 type="search"

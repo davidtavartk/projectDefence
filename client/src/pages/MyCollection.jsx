@@ -1,3 +1,4 @@
+import React from 'react';
 import AppNavbar from "../Components/AppNavbar";
 import CollectionMain from "../Components/CollectionMain";
 

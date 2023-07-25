@@ -1,3 +1,4 @@
+import React from 'react';
 import { Badge, Card, Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { AiOutlineHeart, AiFillHeart } from 'react-icons/ai';
@@ -48,7 +49,7 @@ const ItemComponent = ({item}) => {
                             <span className="text-muted">Topic: {item?.Collection?.topic}</span>
                         </Col>
                         <Col md={4} className='d-flex justify-content-between align-items-center'>
-                            <Badge variant="secondary">7 Comments</Badge>
+                            <Badge variant="secondary">0 Comments</Badge>
                             <Badge variant="secondary">{likesCount} Likes</Badge>
                             <span>
                                 {isFilled ? (

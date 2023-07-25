@@ -1,3 +1,4 @@
+import React from 'react';
 import { Button, Card, Container } from 'react-bootstrap';
 import whiskey from '../images/whiskey.jpg';
 import { useNavigate } from 'react-router-dom';

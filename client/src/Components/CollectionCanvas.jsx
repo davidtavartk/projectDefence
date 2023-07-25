@@ -1,3 +1,4 @@
+import React from 'react';
 import { useEffect, useState } from 'react';
 import { Button, Offcanvas, Form, Container, Row, Col } from 'react-bootstrap';
 import Rating from 'react-rating';

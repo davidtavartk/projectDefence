@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes } from 'react-router-dom';
@@ -8,6 +9,7 @@ import Home from './pages/Home';
 import Collection from './pages/Collection';
 import Item from './pages/Item';
 import MyCollection from './pages/MyCollection';
+
 
 
 

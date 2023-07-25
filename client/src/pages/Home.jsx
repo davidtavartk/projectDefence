@@ -1,3 +1,4 @@
+import React from 'react';
 import { Col, Container, Navbar, Row } from 'react-bootstrap';
 import AppNavbar from '../Components/AppNavbar';
 import SquareCollection from '../Components/SquareCollection';

@@ -1,3 +1,4 @@
+import React from 'react';
 import { Badge, Button, Col, Container, Form, Row } from "react-bootstrap";
 import CommentSection from "./CommentSection";
 import { useEffect, useState } from "react";

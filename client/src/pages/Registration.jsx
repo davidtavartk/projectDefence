@@ -1,3 +1,4 @@
+import React from 'react';
 import { ToastContainer } from 'react-toastify';
 import SignForm from '../Components/SignForm';
 import { registerUser } from '../api';
